@@ -6,9 +6,21 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/pag1')
-def pag1():
-    return render_template('pag1.html')
+@app.route('/p1')
+def p1():
+    return render_template('p1.html')
+
+@app.route('/p2')
+def p2():
+    return render_template('p2.html')
+
+@app.route('/p3')
+def p3():
+    return render_template('p3.html')
+
+@app.route('/p4')
+def p4():
+    return render_template('p4.html')
 
 
 if __name__ == '__main__':
